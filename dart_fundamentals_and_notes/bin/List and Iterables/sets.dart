@@ -4,6 +4,7 @@ void main() {
   // Setler de listeler gibidir. Fakat aralarındaki en önemli fark
   // Listelerin aksine Set'ler Unique itemler barındırır.
   // Yani 1 den fazla aynı elemandan bulundurmazlar.
+  // ignore: unused_local_variable
   var countries = {"Usa", "Italy", "Russia"};
   var countries2 = {"Usa", "China", "Belgium"};
   //! Setlerde bir elemente ulaşmak için listelerdeki gibi listname[index] şeklinde kullanamayız.

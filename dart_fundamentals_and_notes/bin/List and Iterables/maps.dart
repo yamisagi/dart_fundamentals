@@ -5,6 +5,7 @@ void main() {
   var myMap = {"name": "Eren", "age": 36, "height": 179.5};
   // Tıpkı Set ve List yapısında oluduğu gibi Maplerin de key, ve value değerlerine Type-Anotation yapabiliriz.
   // Örneğin ;
+  // ignore: unused_local_variable
   Map<dynamic, dynamic> myMap2 = {1: "Eren", 2: "Yamisagi", 3: "Map"};
   //    |         |
   //(Key Type),(Value Type)

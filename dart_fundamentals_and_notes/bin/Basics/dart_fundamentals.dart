@@ -1,13 +1,13 @@
 // DART NOT DEFTERİ (DART NOTEPAD) - ** Written by Eren Yamisagi **
 
-/* Sıfırdan ileri seviyeye Dart notları.
+/* Sıfırdan ileri seviyeye Dart notları. (From Zero to Deep inside coding)   
    Bu derste değişkenler ve atama ile ilgili bilgiler işlenecek.
-  
+   (In this lecture we ll gonna learn variables and assigning variables.)
 
 */
 
 // Her Dart programı "main()" methodu ile başlar.
-
+// (Everything Dart Program starts with "main()" method.)
 void main() {
   // Değişken Tipini Belirtme | Değişken Adını Verme || Atama || Değişken  Başlatma | Sonlandırma
   // Variable Declaration     | Variable Naming      || Assignment || Variable Initialization | Termination

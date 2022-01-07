@@ -3,13 +3,16 @@
 void main() {
   // Liste tanımlamak için bir kaç farklı yol var,
   // Örneğin;
+  // ignore: unused_local_variable
   List myList1 = ["I", 1, true];
   // Type Anotation
+  // ignore: unused_local_variable
   List<int> myList2 = [
     1,
     2,
     5,
   ]; // Köşeli parantez içine yazdığımız tür harici bir türde item ekleyemeyiz.
+  // ignore: unused_local_variable
   var myList3 = <String>[
     "I",
     "Am",
@@ -22,6 +25,7 @@ void main() {
   // final
   // Sözcüklerini kullanabiliriz
   // Aradaki farklar şu şekilde,
+  // ignore: unused_local_variable
   var varList = ["e", "r", "e", "n"];
   varList = ["no"];
   // Yani bir listeyi var ile tanımladığımızda tekrardan başka bir listeye atayabiliyoruz.

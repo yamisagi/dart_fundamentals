@@ -9,6 +9,7 @@ void main() {
   print("I am Statement"); // --  Bu bir Statementtir.
   //---------------------------------------------------
   int age = 19;
+  // ignore: unused_local_variable
   String checkAge = age < 18 ? "Child" : "Adult"; // Bu bir Expression'dur.
 
 }

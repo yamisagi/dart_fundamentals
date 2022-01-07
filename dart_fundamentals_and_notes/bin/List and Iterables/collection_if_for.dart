@@ -50,7 +50,10 @@ void main() {
     "cuisine": "Arab",
     if (rating.length > 3) "rating": rating,
     //! Veya Spread ile birden fazla K:W ekleyebiliriz
+
     ...{"Popular": true, "Talented": false}
+
     //! Çok önemli kısım Map'lerde   ...{"K":"W"} şeklinde kullanım unutulmamalı.
   };
+  print(restaurant); 
 }

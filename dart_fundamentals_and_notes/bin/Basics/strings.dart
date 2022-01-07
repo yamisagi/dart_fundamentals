@@ -1,4 +1,5 @@
 void main() {
+  // ignore: non_constant_identifier_names
   String first_name = "Eren"; // snake_case
   String lastName =
       "Candan"; // camelCase - Dart bize bu tipi kullanmamızı önerir.
@@ -9,6 +10,7 @@ void main() {
 
   // Ya da
 
+  // ignore: non_constant_identifier_names
   String full_name = "My name is $first_name $lastName";
 
   print(full_name);
