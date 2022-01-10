@@ -1,7 +1,8 @@
 // Anonim Fonksiyonlar
 void main() {
   // Anonim fonksiyonları şu şekilde tanımlayabiliriz,
-  () {}; // Tipik olarak isimlendirilmemiş argümanlar main methodu içerisinde bir daha çağrılmaya ihtiyaç duyulmayan , belirli görevleri yapıp işlemi sonlanan fonksiyonlardır.
+  () {}(); // Tipik olarak isimlendirilmemiş argümanlar main methodu içerisinde bir daha çağrılmaya ihtiyaç duyulmayan , belirli görevleri yapıp işlemi sonlanan fonksiyonlardır.
+  //? Fonksiyonu çağırmak için bitiş parantezine (); ekleriz.
   //! Diğer şekilde tanımlanma yöntemi ise,
 
   var name = (String name) => "Hi, dude $name";
@@ -12,5 +13,4 @@ void main() {
   print(name("Eren"));
   // Dediğimizde fonksiyonun parametresine "Eren" i gönderiyoruz.
   // Fakat bu çokta tavsiye edilen bir yöntem değil.
-
 }
