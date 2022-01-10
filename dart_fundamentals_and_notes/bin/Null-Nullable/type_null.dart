@@ -1,6 +1,8 @@
 /// Null ve Nullable - Değersiz(Boş) ve Boş olabilen tipi ve Null-Safety özelliği
 /// DOCS: https://dart.dev/null-safety
 
+// ignore_for_file: unused_local_variable, avoid_init_to_null
+
 void main() {
   int a;
   var b = null;

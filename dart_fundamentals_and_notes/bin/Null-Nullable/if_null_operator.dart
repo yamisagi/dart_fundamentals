@@ -1,6 +1,8 @@
 //! (??) IF-Null operator.
 // Bu operator ile if == null veya Ternary Operatorler vb logic kurmadan kısa yoldan bir FallBack olan if-null opertörüdür
 // Örneğin;
+// ignore_for_file: unused_local_variable
+
 void main() {
   int? maybeVar;
   int non = maybeVar == null ? 0 : 1; // Gibi bir kullanım yerine
