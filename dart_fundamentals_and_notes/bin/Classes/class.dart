@@ -22,7 +22,7 @@ class BankAccount {
 
 void main() {
   BankAccount myAccount =
-      BankAccount(); // Object , yani örnek olarak oluşturduğumuz sınıftan bir obje türetme.
+      BankAccount(); // Object-Instance of Class , yani örnek olarak oluşturduğumuz sınıftan bir obje türetme.
 
   print(myAccount.balance); // Bu şekilde propertylere erişebiliriz.
   // Ve
