@@ -24,3 +24,4 @@ void main() {
   person2.location = "TR";
   print(person2.location);
 }
+
