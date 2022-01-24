@@ -1,3 +1,5 @@
+// ignore_for_file: hash_and_equals, override_on_non_overriding_member
+
 class Point {
   const Point(this.x, this.y);
   final int x;

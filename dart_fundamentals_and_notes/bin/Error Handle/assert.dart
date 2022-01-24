@@ -1,5 +1,7 @@
 ///! Assert deyimi yararlı bir hata ayıklama aracıdır ve boole koşullarını test etmek için kullanılır. Bir boolean koşulu yanlışsa, assert ifadesi normal yürütmeyi bozar.
 
+// ignore_for_file: unused_local_variable
+
 class PositiveInt {
   const PositiveInt(this.value)
       : assert(value >= 0, 'Value cannot be negative'); // Burda belirttiğimiz value değeri 0 dan büyük olmazsa error message olarak verdiğimiz string değeri çağırılır.

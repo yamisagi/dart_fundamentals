@@ -1,5 +1,7 @@
 /// Class propertylerinde değiştirilebilir ve değiştirilemez olarak kullanmaç
 // Önceki class örneklerinde olduğu gibi bir bankaccount class ı oluşturup değiştirilebilir ve değiştirilemez özellikleri ayarlayacağız.
+// ignore_for_file: unused_local_variable
+
 class BankAccount {
   BankAccount(
     this.name,

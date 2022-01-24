@@ -1,5 +1,7 @@
 ///! Class'lara ait olan method ve propertylerdir,
 /// Örn;
+// ignore_for_file: avoid_function_literals_in_foreach_calls
+
 class MyClass {
   static String nameOfClass = "Nulls"; //! Static variable.
   static int numberOfPerson = 99;

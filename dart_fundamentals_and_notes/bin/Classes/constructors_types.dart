@@ -15,6 +15,7 @@ class BankAccount {
 }
 
 void main() {
+  // ignore: unused_local_variable
   BankAccount person = BankAccount("Eren", 26, 0.0);
   BankAccount person2 = BankAccount.locationBased(
     27,

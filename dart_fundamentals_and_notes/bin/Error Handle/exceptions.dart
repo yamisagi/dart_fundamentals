@@ -1,6 +1,8 @@
 ///! Dart Dilinde aldığımız istisnai durumlara denir
 ///! Bu durumları ele almak için "throw,try-catch-finally,rethrow" gibi özel keywordlere ihtiyaç duyarız.
 
+// ignore_for_file: deprecated_member_use
+
 class Fraction {
   Fraction(this.numerator, this.denominator) {
     if (denominator == 0) {
